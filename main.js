@@ -5,7 +5,5 @@ let btn = document.getElementById("btnHTML");
 btn.addEventListener("click", btnClicked);
 
 function btnClicked() {
-    if(user === admin && pass === 1234) {
-        alert("successful login");
-    }
+console.log("hi");
 }
